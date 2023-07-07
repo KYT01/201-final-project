@@ -111,7 +111,18 @@ button {
     color: rgb(255, 255, 255);
     padding: 5px;
     border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    border: 2px solid rgb(238, 255, 3);
+    cursor: pointer;
     
+}
+
+
+.gif {
+    width: 40%;
 }
 
 
